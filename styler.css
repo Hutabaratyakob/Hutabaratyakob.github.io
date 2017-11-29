@@ -1,9 +1,26 @@
+
 h1 {
-    background-color:#fbffe2;
+    background-color:#eff2d7;
     text-align: center;
     padding: 20px;
+    font-family: courier;
 }
 
-body {
-    background-color: #fbffe2;
-}
+
+    body {
+        background-color: #eff2d7;
+    }
+
+         
+          #menu li {
+            display:inline;
+            font-family: Courier;
+        }
+        
+    #page1 {
+        border: 1px solid black;
+        margin-right: 10px;
+        margin-top: 10px;
+        background-color: #e5d8a9;
+    }
+    
