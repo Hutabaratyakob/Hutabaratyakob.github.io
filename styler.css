@@ -9,10 +9,19 @@ h1 {
 
     body {
         background-color: #eff2d7;
+        padding:0;
+        margin:0;
+    }
+        #h2 {
+        background-color:#eff2d7;
+        text-align: left;
+        padding: 20px;
+        font-family: courier;
     }
 
          
           #menu li {
             display:inline;
             font-family: Courier;
+            text-align: center;
         }
