@@ -73,11 +73,17 @@ header ul{
               color:#f77a0c;
               font-weight: bold;
           }
+          
+          header .smoltxt, header .current a{
+              font-size: 12px;
+          }
+              
+              
               
               /* Showcase */
               
     #showcase{
-        min-height:2000;
+        min-height:1000;
         background:url("sushi.jpg") no-repeat;
         background-size: 2000px 1333px;
         opacity: 0.7
