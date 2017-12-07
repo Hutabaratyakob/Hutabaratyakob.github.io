@@ -18,7 +18,6 @@ header ul{
         background-color: #eff2d7;
         padding:0;
         margin:0;
-        background:url("RH.jpg") no-repeat;
         background-size: 1500px 1800px;
         
     }
@@ -83,5 +82,36 @@ header ul{
         background-size: 2000px 1333px;
         opacity: 0.7
     }
+    #showcase2{
+        min-height:2000;
+        background:url("RH.jpg") no-repeat;
+        background-size: 1900px 2000px;
+    }
     
-
+    #EH{
+        font-size: 18px;
+    }
+        
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
