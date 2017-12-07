@@ -6,6 +6,7 @@ Header{
     min-height:70px;
     border-bottom:#726b05 10px solid; 
     font-family: arial;
+    
 }    
 
 header ul{
@@ -13,11 +14,13 @@ header ul{
     padding:0px;
 }
 
-
     body {
         background-color: #eff2d7;
         padding:0;
         margin:0;
+        background:url("RH.jpg") no-repeat;
+        background-size: 1500px 1800px;
+        
     }
     /* oh hi mark*/
         #h2 {
@@ -49,7 +52,7 @@ header ul{
           header a{
               background:#f9f15c;
               color:#f77a0c;
-              text-transform:lowercase;
+              text-transform:none;
           }
               
           
@@ -80,3 +83,5 @@ header ul{
         background-size: 2000px 1333px;
         opacity: 0.7
     }
+    
+
