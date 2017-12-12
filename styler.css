@@ -23,9 +23,18 @@ header ul{
     }
     /* oh hi mark*/
         #h2 {
+            font-weight: bold;
+            font-size: 50px;
         text-align: left;
         padding: 20px;
         font-family: arial;
+    }
+    .button_1{
+        height:28px;
+        background:#f77a0c;
+        padding-left: 20px;
+        padding-right:20px;
+        border:0;
     }
     
     .container{
@@ -52,6 +61,7 @@ header ul{
               background:#f9f15c;
               color:#f77a0c;
               text-transform:none;
+              text-decoration: none;
           }
               
           
@@ -77,89 +87,113 @@ header ul{
           header .smoltxt, header .current a{
               font-size: 12px;
           }
+          /* sushi list organization*/
+             
+             /*sushi right column*/ 
+          .sushiItem{
+              float:left;
+              padding-left: 20px;
+              padding-bottom: 100px;
+              font-weight: bold;
+          }
+          .smaltxt{
+              font-size:12px;
               
               
+          }
+          .smalrtxt{
+              font-size: 10px;
+          }
+             
+             /*sushi left column*/    
+        
+         .resize {
+              width:189px;
+              height:189px;
               
+        }
+            
               /* Showcase */
-              
-    #showcase{
-        min-height:1000;
-        background:url("sushi.jpg") no-repeat;
-        background-size: 2000px 1333px;
-        opacity: 1.0
+               #showcase{
+                   min-height: 200px;
+        background:url("sushi.jpg") no-repeat 0 -400px;
+        background-size: 1900px 2000px;
+        opacity: 0.9;
+        border-bottom:#726b05 10px solid; 
     }
+            #showcase h1{
+                margin-top: 100px;
+                font-size: 50px;
+                margin-bottom:10px;
+                margin-left:100px;
+                
+            }
+        #showcase p{
+            font-size: 20;
+            margin-left:400px;
+            
+        }
+              
     #showcase2{
         min-height:2000;
         background:url("RH.jpg") no-repeat;
-        background-size: 1900px 2000px;
+        background-size: 2000px 2000px;
     }
     
     #EH{
         font-size: 18px;
+        
     }
     
-    /*POPUPS FOR SUSHI INGREDIENTS*/
+    #newsletter{
+        padding: 15px;
+        color:#f77a0c;
+        background-color:#f9f15c;
+        font-family: arial;
+        border-bottom:#726b05 10px solid; 
+    
+    }
+    
+    #newsletter h1{
+        margin-left: 300px;
+    }
+    
+    #newsletter form{
+        margin-left: 400px;
+    }
     
     
     
-    /* Popup container */
-.popup {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-}
+    #boxes{
+        margin-top:20px;
+    }
+    
+    #boxes .box{
+        float:left;
+        width:30%;
+        text-align: center;
+        padding:10px;
+    }
+    
+    #boxes .box img{
+        width:200px;
+    }
+    
+    
+    footer{
+        padding:20px;
+        margin-top:455;
+        background-color:#f9f15c;
+        text-align: center;
+    }
+    
+    #rec{
+        text-align: center;
+    }
+    
+   
+   
 
-/* The actual popup */
-.popup .popuptext {
-    visibility: hidden;
-    width: 160px;
-    background-color: #555;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 8px 0;
-    position: absolute;
-    z-index: 1;
-    bottom: 125%;
-    left: 50%;
-    margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-    content: "";
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent;
-}
-
-/*hide and show the popup */
-.popup .show {
-    visibility: visible;
-    -moz-webkit-animation: fadeIn 1s;
-    animation: fadeIn 1s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-    from {opacity: 0;} 
-    to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-    from {opacity: 0;}
-    to {opacity:1 ;}
-}
-        
- 
     
     
     
