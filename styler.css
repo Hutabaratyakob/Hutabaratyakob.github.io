@@ -22,13 +22,26 @@ header ul{
         
     }
     /* oh hi mark*/
-        #h2 {
+       #h2 {
             font-weight: bold;
             font-size: 50px;
         text-align: left;
         padding: 20px;
         font-family: arial;
+        
+    } 
+
+       #h3 {
+            font-weight: bold;
+            font-size: 50px;
+        text-align: left;
+        padding: 20px;
+        font-family: arial;
+        border-bottom:#726b05 10px solid; 
+        
     }
+    
+            
     .button_1{
         height:28px;
         background:#f77a0c;
@@ -90,10 +103,12 @@ header ul{
           /* sushi list organization*/
              
              /*sushi right column*/ 
+             #list{
+                 padding-left: 500px;
+             }
           .sushiItem{
-              float:left;
-              padding-left: 20px;
-              padding-bottom: 100px;
+              margin: auto;
+              padding:0;
               font-weight: bold;
           }
           .smaltxt{
@@ -108,8 +123,9 @@ header ul{
              /*sushi left column*/    
         
          .resize {
-              width:189px;
-              height:189px;
+              width:30%;    
+              height:30%;
+              padding:0px;
               
         }
             
@@ -175,8 +191,17 @@ header ul{
         padding:10px;
     }
     
+     #boxes .coob{
+         text-decoration: none;
+        float:left;
+        font-size:30;
+        width:30%;
+        text-align: center;
+        margin-left: 500px;
+        
+    
     #boxes .box img{
-        width:200px;
+        width:100%;
     }
     
     
