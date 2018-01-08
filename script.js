@@ -1,4 +1,4 @@
-var arr=['Sushi Tastes Good','Sushi Is Amazing','Sushi is Delicious','Sushi Is Sugoi'];
+var arr=['Sushi Tastes Good','Sushi Is Amazing','Sushi is Delicious','Sushi Is The Best'];
 var i =0;
 var heading = document.querySelector('#heading');
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+
 
 Header{
     background-color:#f9f15c;
@@ -5,7 +7,8 @@ Header{
     padding-top:30px;
     min-height:70px;
     border-bottom:#726b05 10px solid; 
-    font-family: arial;
+    font-family: 'PT Serif', serif;
+    font-size:40px;
     
 }    
 
@@ -27,7 +30,8 @@ header ul{
             font-size: 50px;
         text-align: left;
         padding: 20px;
-        font-family: arial;
+        font-family: 'PT Serif', serif;
+
         
     } 
 
@@ -36,7 +40,7 @@ header ul{
             font-size: 50px;
         text-align: left;
         padding: 20px;
-        font-family: arial;
+        font-family: 'PT Serif', serif;
         border-bottom:#726b05 10px solid; 
         
     }
@@ -60,7 +64,8 @@ header ul{
           #menu li {
             text-decoration: none;
             font-size: large;
-            font-family: arial;
+            font-family: 'PT Serif', serif;
+
             
         }
           header li{
@@ -165,7 +170,7 @@ header ul{
         padding: 15px;
         color:#f77a0c;
         background-color:#f9f15c;
-        font-family: arial;
+        font-family: 'PT Serif', serif;
         border-bottom:#726b05 10px solid; 
     
     }
@@ -181,6 +186,7 @@ header ul{
     
     
     #boxes{
+        background:url("gog.jpg") no-repeat;
         margin-top:20px;
     }
     
@@ -207,11 +213,13 @@ header ul{
     footer{
         padding:20px;
         margin-top:455;
+        margin-left: auto;
         background-color:#f9f15c;
         text-align: center;
     }
     
     #rec{
+        background:url("RH.jpg") no-repeat;
         text-align: center;
     }
     
