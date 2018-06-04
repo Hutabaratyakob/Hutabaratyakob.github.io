@@ -219,8 +219,8 @@ header ul{
     }
     
     #rec{
-        background:url("RH.jpg") no-repeat;
         text-align: center;
+        border-bottom:#726b05 10px solid;
     }
     
    
